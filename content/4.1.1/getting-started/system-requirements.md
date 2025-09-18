@@ -28,7 +28,6 @@ To compare, the same testing showed repeated upgrade failures for MKE 3 systems 
   - RHEL 8.10
   - Rocky Linux 9.4
 - Architecture: `amd64`
-- CNI: Calico
 
 ## Load balancer requirements
 
