@@ -94,3 +94,21 @@ underlying restore operation is a success.
 **Workaround:**
 
 Run the restore operation with a large timeout, such as `--timeout 1800s`.
+
+<!--- [BOP-2517] -->
+
+## Authentication pod is not redeployed when only hidden fields are updated
+
+When updating the `mke4.yaml` configuration file, if only sensitive fields are
+updated, the cluster will not redeploy the authentication pod with the updated
+values. The sensitive fields include:
+
+- LDAP bind password
+- OIDC secret
+- OIDC ID
+- SAML CA certificate
+
+**Workaround:**
+
+Update a non-sensitive authentication field in the mke4.yaml configuration
+file, or manually delete the authentication pod to trigger its redeployment.
