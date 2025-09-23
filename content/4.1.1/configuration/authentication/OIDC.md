@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/authentication/OIDC/
-  - /docs/configuration/authentication/OIDC/
+  - /latest/configuration/authentication/oidc/
+  - /docs/configuration/authentication/oidc/
 title: OIDC
 weight: 2
 ---

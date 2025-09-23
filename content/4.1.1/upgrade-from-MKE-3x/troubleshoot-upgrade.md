@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/troubleshoot-upgrade/
-  - /docs/upgrade-from-MKE-3x/troubleshoot-upgrade/
+  - /latest/upgrade-from-mke-3x/troubleshoot-upgrade/
+  - /docs/upgrade-from-mke-3x/troubleshoot-upgrade/
 title: Troubleshoot the Upgrade
 weight: 11
 ---

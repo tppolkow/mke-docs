@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/kubernetes-provider-specifications/
-  - /docs/configuration/MKE 4k child clusters/kubernetes-provider-specifications/
+  - /latest/configuration/mke-4k-child-clusters/kubernetes-provider-specifications/
+  - /docs/configuration/mke-4k-child-clusters/kubernetes-provider-specifications/
 title: Kubernetes provider specifications
 weight: 11
 ---

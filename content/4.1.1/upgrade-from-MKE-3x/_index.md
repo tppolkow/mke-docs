@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/
-  - /docs/upgrade-from-MKE-3x/
+  - /latest/upgrade-from-mke-3x/
+  - /docs/upgrade-from-mke-3x/
 title: Upgrade from MKE 3.7 or 3.8
 weight: 4
 ---

@@ -19,7 +19,7 @@ or you can do it manually.
    `MKECTL_VERSION` as required. For example:
 
    ```shell
-   sudo MKECTL_VERSION=v4.1.0 /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/MirantisContainers/mke-release/refs/heads/main/install.sh)"
+   sudo MKECTL_VERSION=v4.1.1 /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/MirantisContainers/mke-release/refs/heads/main/install.sh)"
    ```
 
    If you prefer to run the script in the debug mode for more detailed output and logging,
@@ -38,14 +38,14 @@ or you can do it manually.
    Expected output:
 
    ```shell
-   Version: v4.1.0
+   Version: v4.1.1
    ```
 
    <!-- Remember to update the dependency version and to keep them in sync with the version cited in the Install Manually section below. -->
 
    {{< callout type="info" >}}
 
-   By default, the script installs mkectl v4.1.0.
+   By default, the script installs mkectl v4.1.1.
 
    {{< /callout >}}
 

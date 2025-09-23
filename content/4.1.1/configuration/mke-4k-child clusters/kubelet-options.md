@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/kubelet-options/
-  - /docs/configuration/MKE 4k child clusters/kubelet-options/
+  - /latest/configuration/mke-4k-child-clusters/kubelet-options/
+  - /docs/configuration/mke-4k-child-clusters/kubelet-options/
 title: Kubelet options
 weight: 7
 ---

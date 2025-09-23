@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/drift-detection-options/
-  - /docs/configuration/MKE 4k child clusters/drift-detection-options/
+  - /latest/configuration/mke-4k-child-clusters/drift-detection-options/
+  - /docs/configuration/mke-4k-child-clusters/drift-detection-options/
 title: Drift detection options
 weight: 8
 ---

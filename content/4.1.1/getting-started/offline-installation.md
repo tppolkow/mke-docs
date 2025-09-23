@@ -153,7 +153,7 @@ To upgrade MKE 4k in an airgap environment:
 
 3. Verify that you have the latest version of the mkectl binary. For
    information on how to download and install mkectl, refer to [Install the MKE
-   4k CLI](../../getting-started/install-MKE-4k-CLI).
+   4k CLI](../../getting-started/install-mke-4k-cli).
 
 4. [Back up etcd](../../configuration/backup-restore/backup-etcd) prior to
    initiating the upgrade.

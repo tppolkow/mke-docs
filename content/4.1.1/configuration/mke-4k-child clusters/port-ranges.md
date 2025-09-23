@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/port-ranges/
-  - /docs/configuration/MKE 4k child clusters/port-ranges/
+  - /latest/configuration/mke-4k-child-clusters/port-ranges/
+  - /docs/configuration/mke-4k-child-clusters/port-ranges/
 title: Port ranges
 weight: 15
 ---

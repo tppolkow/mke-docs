@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/backup-and-restore-options/
-  - /docs/configuration/MKE 4k child clusters/backup-and-restore-options/
+  - /latest/configuration/mke-4k-child-clusters/backup-and-restore-options/
+  - /docs/configuration/mke-4k-child-clusters/backup-and-restore-options/
 title: Backup and restore options
 weight: 4
 ---

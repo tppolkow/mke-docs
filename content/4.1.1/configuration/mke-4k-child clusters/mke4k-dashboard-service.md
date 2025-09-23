@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/mke4k-dashboard-service/
-  - /docs/configuration/MKE 4k child clusters/mke4k-dashboard-service/
+  - /latest/configuration/mke-4k-child-clusters/mke4k-dashboard-service/
+  - /docs/configuration/mke-4k-child-clusters/mke4k-dashboard-service/
 title: MKE 4k dashboard service
 weight: 13
 ---

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/upgrade-prerequisites/
-  - /docs/upgrade-from-MKE-3x/upgrade-prerequisites/
+  - /latest/upgrade-from-mke-3x/upgrade-prerequisites/
+  - /docs/upgrade-from-mke-3x/upgrade-prerequisites/
 title: Upgrade Prerequisites
 weight: 2
 ---

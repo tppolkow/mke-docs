@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/infrastructure-options/
-  - /docs/configuration/MKE 4k child clusters/infrastructure-options/
+  - /latest/configuration/mke-4k-child-clusters/infrastructure-options/
+  - /docs/configuration/mke-4k-child-clusters/infrastructure-options/
 title: Infrastructure options
 weight: 1
 ---

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/audit-logging-options/
-  - /docs/configuration/MKE 4k child clusters/audit-logging-options/
+  - /latest/configuration/mke-4k-child-clusters/audit-logging-options/
+  - /docs/configuration/mke-4k-child-clusters/audit-logging-options/
 title: Audit logging options
 weight: 6
 ---

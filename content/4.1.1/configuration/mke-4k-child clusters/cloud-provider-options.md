@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/cloud-provider-options/
-  - /docs/configuration/MKE 4k child clusters/cloud-provider-options/
+  - /latest/configuration/mke-4k-child-clusters/cloud-provider-options/
+  - /docs/configuration/mke-4k-child-clusters/cloud-provider-options/
 title: Cloud provider options
 weight: 10
 ---

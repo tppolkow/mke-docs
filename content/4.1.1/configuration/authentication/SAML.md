@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/authentication/SAML/
-  - /docs/configuration/authentication/SAML/
+  - /latest/configuration/authentication/saml/
+  - /docs/configuration/authentication/saml/
 title: SAML
 weight: 2
 ---

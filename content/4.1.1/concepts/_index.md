@@ -16,4 +16,5 @@ deploying, managing, and scaling applications within a Kubernetes environment.
   {{< card link="configuration" title="Configurations" icon="adjustments" >}}
   {{< card link="k0rdent-templates" title="k0rdent templates" icon="template" >}}
   {{< card link="cni" title="Container Network Interface (CNI)" icon="cube-transparent" >}}
+  {{< card link="child-clusters" title="MKE 4k child clusters" icon="cube-transparent" >}}
 {{< /cards >}}

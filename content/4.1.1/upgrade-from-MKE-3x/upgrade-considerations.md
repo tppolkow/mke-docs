@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/upgrade-considerations/
-  - /docs/upgrade-from-MKE-3x/upgrade-considerations/
+  - /latest/upgrade-from-mke-3x/upgrade-considerations/
+  - /docs/upgrade-from-mke-3x/upgrade-considerations/
 title: Upgrade Considerations
 weight: 1
 ---

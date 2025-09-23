@@ -43,9 +43,9 @@ Detail on the enhancements introduced in MKE 4k 4.1.1 includes:
   upgrades, validate configurations, and identify potential issues before you
   upgrade, to ensure that you production clusters remain reliable.
 
-  Refer to [Perform the Upgrade](../../upgrade-from-MKE-3x/perform-migration)
+  Refer to [Perform the Upgrade](../../upgrade-from-mke-3x/perform-migration)
   and [Upgrade Compatibility
-  checks](../../upgrade-from-MKE-3x/compatibility-checks) for more information.
+  checks](../../upgrade-from-mke-3x/compatibility-checks) for more information.
 <br><br>
 - **Custom CNI enablement, including Calico Enterprise**
 

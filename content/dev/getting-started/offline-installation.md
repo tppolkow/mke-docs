@@ -26,7 +26,7 @@ registry from which to pull the MKE 4k images and charts.
 1. Download the offline bundle from the command line as follows:
 
      ```bash
-     MKE_VERSION="4.1.0"
+     MKE_VERSION="4.1.1"
      DOWNLOAD_URL="https://packages.mirantis.com/caas/mke_bundle_v${MKE_VERSION}_amd64.tar.gz"
      BUNDLE_NAME="mke_bundle_v${MKE_VERSION}_amd64.tar.gz"
 
@@ -45,7 +45,7 @@ registry from which to pull the MKE 4k images and charts.
 4. On the machine with registry access, set the environment variables:
 
    ```bash
-   MKE_VERSION="4.1.0"
+   MKE_VERSION="4.1.1"
    export REGISTRY_ADDRESS='<registry_address>'
    export REGISTRY_PROJECT_PATH='<registry-path>'
    export REGISTRY_USERNAME='<username>'
@@ -150,7 +150,7 @@ To upgrade MKE 4k in an airgap environment:
 
 3. Verify that you have the latest version of the mkectl binary. For
    information on how to download and install mkectl, refer to [Install the MKE
-   4k CLI](../../getting-started/install-MKE-4k-CLI).
+   4k CLI](../../getting-started/install-mke-4k-cli).
 
 4. [Back up etcd](../../configuration/backup-restore/backup-etcd) prior to
    initiating the upgrade.

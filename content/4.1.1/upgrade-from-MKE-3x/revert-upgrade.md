@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/revert-upgrade/
-  - /docs/upgrade-from-MKE-3x/revert-upgrade/
+  - /latest/upgrade-from-mke-3x/revert-upgrade/
+  - /docs/upgrade-from-mke-3x/revert-upgrade/
 title: Revert the Upgrade
 weight: 6
 ---

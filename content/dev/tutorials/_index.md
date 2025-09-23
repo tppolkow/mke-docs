@@ -15,5 +15,5 @@ link="authentication-provider-setup/setting-up-openldap-as-an-ldap-provider"
 title="Scenario 5: LDAP Setup" icon="lightning-bolt" >}}
 {{< card
 link="mke4k-child-clusters/deploy-mke4k-child-cluster"
-title="Scenario 6: Deploy MKE 4k child cluster" icon="lightning-bolt" >}}
+title="Scenario 6: Deploy an MKE 4k child cluster" icon="lightning-bolt" >}}
 {{< /cards >}}

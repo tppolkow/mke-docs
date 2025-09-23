@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/coredns-lameduck-upgrades/
-  - /docs/upgrade-from-MKE-3x/coredns-lameduck-upgrades/
+  - /latest/upgrade-from-mke-3x/coredns-lameduck-upgrades/
+  - /docs/upgrade-from-mke-3x/coredns-lameduck-upgrades/
 title: CoreDNS Lameduck Upgrades
 weight: 8
 ---

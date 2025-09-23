@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/authentication/LDAP/
-  - /docs/configuration/authentication/LDAP/
+  - /latest/configuration/authentication/ldap/
+  - /docs/configuration/authentication/ldap/
 title: LDAP
 weight: 3
 ---

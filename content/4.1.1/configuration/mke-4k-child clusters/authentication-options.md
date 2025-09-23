@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/authentication-options/
-  - /docs/configuration/MKE 4k child clusters/authentication-options/
+  - /latest/configuration/mke-4k-child-clusters/authentication-options/
+  - /docs/configuration/mke-4k-child-clusters/authentication-options/
 title: Authentication options
 weight: 14
 ---

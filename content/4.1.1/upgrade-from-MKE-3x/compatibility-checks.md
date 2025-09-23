@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/compatibility-checks/
-  - /docs/upgrade-from-MKE-3x/compatibility-checks/
+  - /latest/upgrade-from-mke-3x/compatibility-checks/
+  - /docs/upgrade-from-mke-3x/compatibility-checks/
 title: Upgrade compatibility checks
 weight: 3
 ---

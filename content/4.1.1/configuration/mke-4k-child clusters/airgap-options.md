@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/airgap-options/
-  - /docs/configuration/MKE 4k child clusters/airgap-options/
+  - /latest/configuration/mke-4k-child-clusters/airgap-options/
+  - /docs/configuration/mke-4k-child-clusters/airgap-options/
 title: Airgap options
 weight: 9
 ---

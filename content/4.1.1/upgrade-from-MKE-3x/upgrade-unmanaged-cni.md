@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/upgrade-unmanaged-cni/
-  - /docs/upgrade-from-MKE-3x/upgrade-unmanaged-cni/
+  - /latest/upgrade-from-mke-3x/upgrade-unmanaged-cni/
+  - /docs/upgrade-from-mke-3x/upgrade-unmanaged-cni/
 title: Upgrade with unmanaged CNI
 weight: 10
 ---

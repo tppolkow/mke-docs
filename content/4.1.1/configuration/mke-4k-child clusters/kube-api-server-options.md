@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/kube-api-server-options/
-  - /docs/configuration/MKE 4k child clusters/kube-api-server-options/
+  - /latest/configuration/mke-4k-child-clusters/kube-api-server-options/
+  - /docs/configuration/mke-4k-child-clusters/kube-api-server-options/
 title: kube-apiserver options
 weight: 2
 ---

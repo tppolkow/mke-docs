@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/
-  - /docs/configuration/MKE 4k child clusters/
+  - /latest/configuration/mke-4k-child-clusters/
+  - /docs/configuration/mke-4k-child-clusters/
 title: Child clusters
 weight: 6
 ---

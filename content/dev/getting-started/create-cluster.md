@@ -21,7 +21,7 @@ requirements](../system-requirements).
 
 Node provisioning is managed by the cluster administrators. You can, for
 instance, use Terraform to create the nodes in a cloud provider.
-Refer to [Example Terraform configuration](../../tutorials/k0s-in-aws/terraform-scenario)
+Refer to [Example Terraform configuration](../../tutorials/mke4k-in-aws/terraform-scenario)
 for an example.
 
 ## Initialize deployment

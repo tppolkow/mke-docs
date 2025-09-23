@@ -24,7 +24,7 @@ k0rdent, resulting in a more prolonged upgrade process.
 
 1. Verify that you have the latest version of the mkectl binary. For
    information on how to download and install mkectl, refer to [Install the MKE
-   4k CLI](../../getting-started/install-MKE-4k-CLI).
+   4k CLI](../../getting-started/install-mke-4k-cli).
 
 2. [Back up etcd](backup-etcd) prior to initiating the upgrade.
 

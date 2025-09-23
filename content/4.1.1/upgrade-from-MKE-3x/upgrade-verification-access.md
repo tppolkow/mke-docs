@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/upgrade-verification-access/
-  - /docs/upgrade-from-MKE-3x/upgrade-verification-access/
+  - /latest/upgrade-from-mke-3x/upgrade-verification-access/
+  - /docs/upgrade-from-mke-3x/upgrade-verification-access/
 title: Upgrade Verification and Access
 weight: 5
 ---

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/metal-lb-service/
-  - /docs/configuration/MKE 4k child clusters/metal-lb-service/
+  - /latest/configuration/mke-4k-child-clusters/metal-lb-service/
+  - /docs/configuration/mke-4k-child-clusters/metal-lb-service/
 title: MetalLB load balancer service
 weight: 12
 ---

@@ -50,7 +50,7 @@ Reasons to consider using an unmanaged CNI with MKE 4k include:
 {{< callout type=info >}}
 
 Refer to [Upgrade with an unmanaged
-CNI](../../../upgrade-from-MKE-3x/upgrade-unmanaged-cni) for information
+CNI](../../../upgrade-from-mke-3x/upgrade-unmanaged-cni) for information
 related to upgrading an MKE 3.x cluster that is running an unmanaged CNI to MKE
 4k.
 

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/rbac-upgrades/
-  - /docs/upgrade-from-MKE-3x/rbac-upgrades/
+  - /latest/upgrade-from-mke-3x/rbac-upgrades/
+  - /docs/upgrade-from-mke-3x/rbac-upgrades/
 title: RBAC Upgrades
 weight: 7
 ---

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/upgrade-from-MKE-3x/upgrade-cert-manager/
-  - /docs/upgrade-from-MKE-3x/upgrade-cert-manager/
+  - /latest/upgrade-from-mke-3x/upgrade-cert-manager/
+  - /docs/upgrade-from-mke-3x/upgrade-cert-manager/
 title: Upgrade with cert-manager
 weight: 9
 ---

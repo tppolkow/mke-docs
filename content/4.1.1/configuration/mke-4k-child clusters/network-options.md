@@ -1,7 +1,7 @@
 ---
 aliases:
-  - /latest/configuration/MKE 4k child clusters/network-options/
-  - /docs/configuration/MKE 4k child clusters/network-options/
+  - /latest/configuration/mke-4k-child-clusters/network-options/
+  - /docs/configuration/mke-4k-child-clusters/network-options/
 title: Network options
 weight: 5
 ---
