@@ -23,7 +23,7 @@ upgrading MKE 3 to MKE 4k:
   Example output:
 
   ```shell
-  Version: v4.1.0
+  Version: v4.1.1
   ```
 
 - A hosts.yaml file, prepared as follows:
