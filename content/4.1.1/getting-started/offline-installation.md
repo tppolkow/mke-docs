@@ -29,7 +29,7 @@ registry from which to pull the MKE 4k images and charts.
 1. Download the offline bundle from the command line as follows:
 
      ```bash
-     MKE_VERSION="4.1.0"
+     MKE_VERSION="4.1.1"
      DOWNLOAD_URL="https://packages.mirantis.com/caas/mke_bundle_v${MKE_VERSION}_amd64.tar.gz"
      BUNDLE_NAME="mke_bundle_v${MKE_VERSION}_amd64.tar.gz"
 
@@ -48,7 +48,7 @@ registry from which to pull the MKE 4k images and charts.
 4. On the machine with registry access, set the environment variables:
 
    ```bash
-   MKE_VERSION="4.1.0"
+   MKE_VERSION="4.1.1"
    export REGISTRY_ADDRESS='<registry_address>'
    export REGISTRY_PROJECT_PATH='<registry-path>'
    export REGISTRY_USERNAME='<username>'
