@@ -7,7 +7,7 @@ weight: 3
 ---
 
 {{< callout type="info" >}} To upgrade an MKE 3 cluster with GPU enabled,
-ensure you complete the [GPU prerequisites](../../configuration/nvidia-gpu/#prerequisites) before
+ensure you complete the [GPU prerequisites](../../configuration/nvidia-gpu) before
 starting the upgrade process. {{< /callout >}}
 
 ### Kubernetes Custom Flags

@@ -6,7 +6,7 @@ title: Setting up Okta as a SAML provider
 weight: 4
 ---
 
-To configure an Okta application to serve as your [SAML authentication](../../../../docs/configuration/authentication/saml) provider for MKE 4k:
+To configure an Okta application to serve as your [SAML authentication](../../../configuration/authentication/saml) provider for MKE 4k:
 
 1. Navigate to (Okta)[https://www.okta.com/] and sign in to your account dashboard.
 2. Select **SAML 2.0** for **Sign-in method**.

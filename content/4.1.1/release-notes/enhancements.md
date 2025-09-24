@@ -22,7 +22,7 @@ Detail on the enhancements introduced in MKE 4k 4.1.1 includes:
   multi-cluster deployments across clouds or on-prem environments.
 
   Refer to [MKE 4k child clusters](../../concepts/child-clusters) and
-  [Configure child clusters](../../configuration/MKE-4k-child-clusters) for more information.
+  [Configure child clusters](../../configuration/mke-4k-child-clusters) for more information.
 <br><br>
 - **Custom CA certificates for air-gapped environments**
 
