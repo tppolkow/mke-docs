@@ -5,7 +5,7 @@ weight: 3
 
 It is important to be familiar with the MKE 4k limitations related to Calico OSS CNI:
 
-- IPVS not supported
+- IPVS are not supported
 - Only clusters that use the default Kubernetes proxier `iptables` can be
   upgraded from MKE 3 to MKE 4k.
 - Only KDD-backed MKE 3 clusters can be upgraded to MKE 4k. Refer to [Upgrade

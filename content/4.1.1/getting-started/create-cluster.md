@@ -66,8 +66,8 @@ You may need to add the SSH private key to your identity manager in order for mk
 - Without ssh-agent, ensure that the SSH private key is accessible at the path specified in the keyPath field of the `mke4.yaml` configuration file.
 {{< /callout >}}
 
-{{< callout type="important" >}}
-MKE4k supports Calico OSS by default. Customers can use a CNI of their choice as an unmanaged CNI, such as Calico Enterprise. For more information, refer to [installing an unmanaged CNI plugin](.../configuratin/container-network-interface/unmanaged-cni-providers/install-unmanaged-cni.md).
+{{< callout type="info" >}}
+MKE4k supports Calico OSS by default. You can, though, deploy a different CNI as an unmanaged CNI, such as Calico Enterprise. For more information, refer to [Install an unmanaged CNI plugin](../../configuration/container-network-interface/unmanaged-cni-providers/install-unmanaged-cni).
 {{< /callout >}}
 
 ## Create a cluster

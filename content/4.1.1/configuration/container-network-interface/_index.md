@@ -13,7 +13,8 @@ environment.
 Currently, MKE 4k directly supports the [Calico
 OSS](configure-cni-providers#calico-oss) CNI plugin.
 
-You can configure other CNI solutions for use with MKE 4k. Note, though, that Mirantis provides only basic [instruction for configuring
+You can configure other CNI solutions for use with MKE 4k. Note, though, that
+Mirantis provides only basic [instruction for how to configure
 unmanaged CNIs for use with MKE 4k](unmanaged-cni-providers). For detailed
 information on whichever unmanaged CNI plugins you intend to deploy, you must
 refer to the product documentation or support service.
