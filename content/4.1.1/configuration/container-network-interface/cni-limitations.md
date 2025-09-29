@@ -6,11 +6,9 @@ title: Limitations
 weight: 3
 ---
 
-It is important to be familiar with the MKE 4k limitations related to Container
-Network Interfaces before deploying a CNI plugin.
+It is important to be familiar with the MKE 4k limitations related to Calico OSS CNI:
 
-- MKE 4k does not support Calico Enterprise.
-- MKE 4k does not support IPVS.
+- IPVS not supported
 - Only clusters that use the default Kubernetes proxier `iptables` can be
   upgraded from MKE 3 to MKE 4k.
 - Only KDD-backed MKE 3 clusters can be upgraded to MKE 4k. Refer to [Upgrade
