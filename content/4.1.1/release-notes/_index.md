@@ -13,7 +13,7 @@ issues, and security concerns.
 
 | Release Date 	| Version 	| Highlights 	|
 |---	|---	|---	|
-| 17-SEPT-2025<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| 4.1.1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| <ul> <li>Availability of MKE 4k child clusters with Mirantis k0rdent Enterprise 1.1.0. <li>Custom CA certificates for air-gapped environments. <li>Improved upgrades, including dry run functionality. <li>Custom CNI enablement, including Calico Enterprise. <li>MKE 4k now only recognizes the following role types as valid: `controller+worker`  and  `worker`. </ul> 	|
+| 17-SEPT-2025<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| 4.1.1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| <ul> <li>Availability of MKE 4k child clusters with Mirantis k0rdent Enterprise 1.1.0. <li>Custom CA certificates for air-gapped environments. <li>Improved upgrades, including dry run functionality. <li>Custom CNI enablement, including Calico Enterprise. 	|
 
 {{< cards >}}
   {{< card link="features-summary" title="Features summary" icon="lightning-bolt" >}}

@@ -57,11 +57,6 @@ Detail on the enhancements introduced in MKE 4k 4.1.1 includes:
 
   Refer to [Configure CNI Providers](../../configuration/container-network-interface/configure-cni-providers/#calico-oss) for more information.
 
-<!--- [BOP-2260] -->
-
-- **MKE 4k now only recognizes the `controller+worker` and `worker` role
-  types**
-
 ## Backend enhancements
 
 - Support registeries with private CAs and backend redirects.
