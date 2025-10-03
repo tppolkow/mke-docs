@@ -163,3 +163,4 @@ configuration sources. For MKE 4k, the order is as follows:
 
 For more information on kubelet configuration value precedence, refer to the
 official Kubernetes documentation [Kubelet configuration merging
+order](https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/#kubelet-configuration-merging-order).

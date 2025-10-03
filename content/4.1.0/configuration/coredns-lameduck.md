@@ -23,8 +23,8 @@ the `lameduck` section of the `mke4.yaml` configuration file under `dns`:
 
 | Field                      | Description                                                             | Default |
 |----------------------------|-------------------------------------------------------------------------|---------|
-| enabled                    | Enables the lameduck health function.<br/>  Valid values: true, false.  | false   |
-| duration                   | Length of time during which lameduck will run, expressed with integers and time suffixes, such as s for seconds and m for minutes.                                            | 7s      |
+| `enabled`                    | Enables the lameduck health function.<br/>  Valid values: true, false.  | `false`   |
+| `duration`                   | Length of time during which lameduck will run, expressed with integers and time suffixes, such as s for seconds and m for minutes.                                            | `7s`      |
 
 
 <callout type="info"> MKE 4k does not support the use of the `kubectl edit`

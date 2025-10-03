@@ -8,7 +8,7 @@ weight: 4
 
 To configure an Okta application to serve as your [SAML authentication](../../../configuration/authentication/saml) provider for MKE 4k:
 
-1. Navigate to (Okta)[https://www.okta.com/] and sign in to your account dashboard.
+1. Navigate to [Okta](https://www.okta.com/) and sign in to your account dashboard.
 2. Select **SAML 2.0** for **Sign-in method**.
 3. Enter an **App name** that is easy to remember.
 4. Configure the host for your redirect URLs:
@@ -52,7 +52,7 @@ To obtain the metadata URL in Okta, navigate to **Applications -> Applications -
 
 Example `ssoMetadataURL` information:
 
-```shell
+```shell { .no-copy }
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.okta.com/exk75pi5do2MzU1t95r7">
 <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 <md:KeyDescriptor use="signing">
@@ -78,7 +78,7 @@ Set up the SAML service manually in MKE 4k to gain more control over the configu
 
 An example follows of the `saml` section of the `mke4.yaml` configuration file under `authentication`:
 
-```yaml
+```yaml { .no-copy }
 authentication:
   saml:
     enabled: true
@@ -124,7 +124,7 @@ Once the `saml` section of the `mke4.yaml` configuration file is set, run it wit
 
 ## Test authentication flow
 
-1. Navigate to the MKE 4k dashboard: `https://<MKE 4k hostname>`
+1. Navigate to the MKE 4k dashboard: `https://<MKE-4k-hostname>`
 2. Select **Log in with OIDC**. This will redirect you to the Okta
    login page for your application.
 3. Enter your credentials and click **Sign In**. If authentication is successful,

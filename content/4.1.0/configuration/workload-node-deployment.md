@@ -19,6 +19,8 @@ functionality.
 Restrict workload deployment to Kubernetes worker nodes
 -------------------------------------------------------
 
+By default, MKE 4k clusters use [Kubernetes taints and
+tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 to prevent user workloads from deploying to MKE 4k manager nodes.
 
 To view the taints, run the following command:
@@ -40,6 +42,7 @@ Allow workload deployment on Kubernetes MKE 4k manager
 ------------------------------------------------------
 
 You can circumvent the protections put in place by [Kubernetes taints and
+tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/).
 
 To add a toleration to the Pod specification for existing workloads:
 

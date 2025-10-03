@@ -7,7 +7,7 @@ weight: 3
 
 Traffic that originates outside of your cluster, *ingress* traffic, is managed
 through the use of an ingress controller. By default, MKE 4k offers NGINX
-Ingress Controller, which manages ingress traffic using the [Kubernetes
+Ingress Controller, which manages ingress traffic using the [Kubernetes Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 rules.
 
 {{< callout type="info" >}}

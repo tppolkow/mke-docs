@@ -33,8 +33,11 @@ Example output:
 
 {{< callout type="important" >}}
 
-For air-gapped MKE 4k clusters, you must deploy a package registry and mirror the drivers to it, as described in the
-official NVIDIA documentation, [Install NVIDIA GPU Operator in Air-Gapped
+For air-gapped MKE 4k clusters, you must deploy a package registry and
+mirror the drivers to it, as described in the official NVIDIA
+documentation, [Install NVIDIA GPU Operator in Air-Gapped
+Environments - Local Package
+Repository](https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/install-gpu-operator-air-gapped.html#local-package-repository).
 
 {{< /callout >}}
 

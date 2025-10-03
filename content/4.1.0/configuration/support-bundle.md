@@ -73,14 +73,15 @@ method that was used to install the plugin.
     
     1. Download the latest version of the plugin:
 
-    ```
-    ```
+        ```bash
+        curl -L https://github.com/replicatedhq/troubleshoot/releases/latest/download/support-bundle_linux_amd64.tar.gz | tar xzvf -
+        ```
 
     2. Replace the existing plugin with the new version:
 
-    ```
-    sudo mv ./support-bundle /usr/local/bin/kubectl-support_bundle
-    ```
+        ```bash
+        sudo mv ./support-bundle /usr/local/bin/kubectl-support_bundle
+        ```
 
     {{< /tab >}}
 
@@ -105,9 +106,9 @@ method that was used to install the plugin.
       at installation. 
     2. Remove the support bundle:
     
-      ```
-      sudo rm /usr/local/bin/kubectl-support_bundle
-      ```
+       ```
+       sudo rm /usr/local/bin/kubectl-support_bundle
+       ```
     {{< /tab >}}
   
 {{< /tabs >}}

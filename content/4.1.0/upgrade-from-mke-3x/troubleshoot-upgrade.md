@@ -12,11 +12,10 @@ The MKE 3 `etcdv3` backend is not supported for upgrade to MKE 4k.
 
 {{< /callout >}}
 
-During the upgrade from MKE 3 to MKE 4, which defaults to the `etcdv3`
-backend, you may receive the following error:
+During the [upgrade from MKE 3 to MKE 4](../perform-migration), which defaults to
+the `etcdv3` backend, you may receive the following error:
 
-```bash
-mkectl upgrade --hosts-path hosts.yaml --mke3-admin-username admin --mke3-admin-password <mke_admin_password> -l debug --config-out new-mke4.yaml --external-address <mke4_external_address>
+```console
 ...
 Error: unable to generate upgrade config: unsupported configuration for mke4 upgrade: mke3 cluster is using etcdv3 and not kdd backend for calico
 ```

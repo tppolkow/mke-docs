@@ -4,7 +4,9 @@ weight: 7
 ---
 
 As MKE 4k does not support Swarm mode, the platform uses standard [Kubernetes
+RBAC authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/).
 As such, the Swarm authorization configuration that is in place for MKE 3 is not present in MKE 4.
+
 
 ### Groups
 
