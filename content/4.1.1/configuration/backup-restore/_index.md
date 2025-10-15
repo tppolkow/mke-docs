@@ -6,93 +6,50 @@ title: Backup and restore
 weight: 1
 ---
 
-MKE 4k supports backup and restoration of cluster data through the use of the
-[Velero](https://velero.io/) add-on. System backup is enabled by default. In
-addition, MKE 4k also supports [etcd backups through the CLI](backup-etcd).
+Mirantis strongly recommends that you perform regular backups of your MKE 4k clusters, including any time that you affect a configuration change.
 
-## Backup configuration
+MKE4k backup does not impact normal functioning of your cluster.
 
-The `backup` section of the `mke4.yaml` configuration file renders as follows:
+## Limitations
 
-```yaml
-backup:
-  enabled: true
-  storage_provider:
-    type: InCluster
-    in_cluster_options:
-      distributed: false
+* MKE4k does not support using different versions of the product for backup and restoring. Both tasks must use the same exact version
+
+* Taking two backups simultaneously is not supported. An ongoing backup should not be interrupted and must be allowed to complete before initiating any upgrade, as doing otherwise may lead to unpredictable results
+
+* MKE 4k may not be able to back up a cluster that has crashed
+
+* MKE 4k does not support scheduled backups.
+
+## Backup procedure
+
+Backups of MKE4k are saved as local tarballs.
+
+## Create a backup
+
+{{< callout type="info" >}}
+MKE 4k backups are saved as local tarballs.
+{{< /callout >}}
+
+To create an MKE 4k backup and save it to a local path, run:
+
+```bash
+mkectl etcd backup -f <config_file_path>
 ```
 
-By default, MKE 4k supports backups that use the in-cluster storage
-provider, as shown in the `type.InCluster` field.
-In-cluster backups for MKE 4k are implemented using the
-[MinIO add-on](https://min.io/).
+You can provide a name for the backup using the `--name flag`. If this flag is not specified, the default value `backup.tar` will be used.
 
-The `distributed` setting configures MinIO storage to run in distributed mode.
+## Restore from a backup
 
-Refer to the following list for detail on all the configuration file `backup` fields:
+To restore an MKE 4k backup, run:
 
-<!-- [TODO turn this list into a table once column widths are fixed] -->
+```bash
+mkectl etcd restore --name <backup_name> -f <config_file_path>
+```
 
-`enabled` 
-: Indicates whether backup/restore functionality is enabled.
+This will restore the MKE4k backup to the target cluster. Be aware that this
+operation will result in cluster disruption, as the cluster will be restored to
+the state it was in at the point the backup was created.
 
-  - Valid values: `true`, `false`
-  - Default: `true`
+If a backup with the same name already exists, the backup process will fail immediately. To use the same name, please rename or move the existing file to a different location.
 
-`storage_provider.type `
-
-: Indicates whether the storage type in use is in-cluster or external.
-
-  -  `InCluster`, `External`
-  - Default: `InCluster`
-
-`storage_provider.in_cluster_options.distributed`
-
-: Indicates whether to run MinIO in distributed mode.
-
-  - Valid values: `true`, `false`
-  - Default: `false`
-
-`storage_provider.external_options.provider`
-
-: Name of the external storage provider. Currently, AWS is the only available option.
-
-  - Valid values: `aws`
-  - Default: `aws`
-
-`storage_provider.external_options.bucket`
-
-: Name of the pre-created bucket to use for backup storage.
-
-`storage_provider.external_options.region `
-
-: Region in which the bucket exists.
-
-`storage_provider.external_options.credentials_file_path`
-
-: Path to the Credentials file.
-
-`storage_provider.external_options.credentials_file_profile`
-
-: Profile in the Credentials file to use
-
-## Create a backup and perform a restore
-
-For information on how to create backups and perform restores for both storage
-provider types, refer to:
-
-- [External storage provider](external)
-- [In-cluster storage provider](in-cluster)
-
-## Existing limitations
-
-- MKE 4k does not currently support:
-
-  - scheduled backups
-  - backup to NFS storage
-  - backup to local disks
-
-- Restoration Scope: Backups can only be restored to the same cluster where they
-  were originally created. Restoring to a new set of nodes is not supported.
-
+> Please make sure MKE config file `hosts` section has correct configuration entries as restore would use this configuration to connect the the relevant hosts.

@@ -12,7 +12,6 @@ herein:
 
 - [infrastructure options](infrastructure-options)
 - [kube-apiserver options](kube-api-server-options)
-- [Backup and restore options](backup-and-restore-options)
 - [Network options](network-options)
 - [Audit logging options](audit-logging-options)
 - [Kubelet options](kubelet-options)
