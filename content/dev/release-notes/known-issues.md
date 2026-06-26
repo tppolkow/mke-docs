@@ -91,3 +91,47 @@ underlying restore operation is a success.
 **Workaround:**
 
 Run the restore operation with a large timeout, such as `--timeout 1800s`.
+
+## Windows worker nodes retain stale CNI state after `reset`
+
+`mkectl reset` can sometimes leave stale Calico Host Networking Service (HNS)
+state on a Windows worker node. When the node later rejoins a cluster, Windows
+Pods scheduled to it stay in `ContainerCreating` and never receive a Pod IP, with
+events reporting `hcs::CreateComputeSystem ... The endpoint was not found`.
+
+**Check for the issue** — in an elevated PowerShell session on the Windows node,
+list the Calico HNS networks. The node has stale state if any are returned:
+
+```powershell
+Get-HnsNetwork | Where-Object { $_.Name -like '*calico*' -or $_.Name -eq 'External' }
+```
+
+**Remediate** — in the same session:
+
+1. If the node has already rejoined a cluster, stop the k0s worker service first
+   so the cleanup does not hang (skip this on a node that was only reset):
+
+   ```powershell
+   Stop-Service k0sworker -Force
+   ```
+
+2. Remove the stale Calico HNS endpoints and networks:
+
+   ```powershell
+   if (-not (Get-Command Get-HnsNetwork -ErrorAction SilentlyContinue)) {
+       Import-Module (Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\Modules\hns\hns.psm1')
+   }
+   Get-HnsEndpoint | Where-Object { $_.Name -like '*calico*' } | Remove-HnsEndpoint -ErrorAction SilentlyContinue
+   Get-HnsNetwork  | Where-Object { $_.Name -like '*calico*' -or $_.Name -eq 'External' } | Remove-HnsNetwork -ErrorAction SilentlyContinue
+   ```
+
+3. If you stopped the k0s worker service, restart it with
+   `Start-Service k0sworker`; otherwise rejoin the node with `mkectl apply`.
+   Calico then programs a clean HNS network and any stuck Pods start running.
+
+{{< callout type="info" >}}
+
+If `Remove-HnsNetwork` hangs, reboot the node (`Restart-Computer -Force`); k0s and
+Calico reprogram the HNS dataplane cleanly on restart.
+
+{{< /callout >}}
